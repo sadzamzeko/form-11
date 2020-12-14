@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form>  <!--form geolab lesson 11-->
+        <input type="text">
+        <br><br><br>
+        <label>სახელი და გვარი</label>
+        <input type="text" placeholder="სახელი და გვარი">
+
+
+        <div class="form-box">
+            <label for="name">სახელი</label>
+            <input type="text" placeholder="სახელი" id="name" name="name" required> <!-- required anu aucilebelia rom sheavso ise button gagzavnaze ar gagishveb-->
+        </div>
+        <div class="form-box red-box">
+            <label for="surname">გვარი</label>
+            <input type="text" placeholder="გვარი" id="surname" name="surname" required>
+        </div>
+        <div class="form-box">
+            <label for="email">ელ-ფოსტა</label>
+            <input type="email" placeholder="ელ-ფოსტა" id="email" name="email" required>
+        </div>
+        <div class="form-box">
+            <label for="number">ნომერი</label>
+            <input type="number" placeholder="ნომერი" id="number" name="number" required>
+        </div>
+        <div class="form-box">
+            <label for="choose">მონიშნეთ</label>
+            <input type="checkbox"  id="choose" name="checkbox" required>
+        </div>
+        <div class="form-box">
+            <label for="female">ქალი</label>
+            <input type="radio"  id="female" name="gender" required>
+            <label for="male">კაცი</label>
+            <input type="radio"  id="male" name="gender" required>
+        </div>
+        <select name="" id="">
+            <option value="" >თბილისი</option>
+            <option value="" selected>ბათუმი</option> <!--  selected anu defaultad iyos is romelsac selected uweria -->
+            <option value="">ქუთაისი</option>
+        </select>
+        <input type="file">
+        <button class="butt">გაგზავნა</button>
+        <div class="form-box">
+            <label for="comment">შეიყვანეთ კომენტარი</label>
+            <textarea name="comments" id="comment" ></textarea>
+        </div>
+        <br><br><br>
+        <!-- select da button gverdigverdaa axla dabla chamotana tu minda buttonis chavsva divshi div defaultad xom display:block ia da 100%s ikavebs horizontalurad amitom buttons chamomigdebs dabla-->
+        <select name="" id="">
+            <option value="" >თბილისი</option>
+            <option value="" selected>ბათუმი</option> <!--  selected anu defaultad iyos is romelsac selected uweria -->
+            <option value="">ქუთაისი</option>
+        </select>
+        <div>
+            <button class="butt but2">გაგზავნა</button>
+        </div>
+    </form>
+    
+</body>
+</html>

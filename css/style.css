@@ -1,0 +1,55 @@
+.form-box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 40px;
+}
+.form-box  input{
+    margin-top: 15px;
+    width: 150px;
+}
+.red-box input{
+    border: 4px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: purple;
+    color: yellow; /* chaweras rom daiwyeb yvitel asoebs chawers placeholderis fers ar shecvlis */
+    font-size: 20px;
+    font-weight: 900;
+    outline: none; /*focusis dros (anu rodesac movnishnavt-vaklikebt charchos) charchos rom movnishnavt defaultad martkutxed xazs uketebs da es rom ar gaaketos  */
+    box-shadow: 10px 15px 10px rgb(40, 148, 76);
+}
+
+input:focus{
+    border: 2px dashed blue;
+}
+/* buttons defaultad aqvs raghac stylebi gawerili background nacrisferi da a.sh jer defaultad rac aqvs is unda gavutishot da mere chveni gavuwerot risi shecvlac minda */
+.butt{ 
+    background: none;
+    border: 0;
+    background-color: violet;
+    padding: 20px;
+    border-radius: 10px;
+    color: blue;
+    font-size: 15px;
+    /* margin-top: 20px; amis dros selectic chamodis 20pxit radghan select da button gverdigverd dajda, amitom button movaqciot divshi div display:blockia defaultad da avvtomaturad chamoitans qvemot */
+    
+}
+
+.but2{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.tarea{
+    margin-top: 20px;
+}
+
+
+/* momxmarebels rom ar hqondes box sizes shecvlis sashualeba davuwerot, tu did teskts chaagdebs da ar daeteva am boxshi automaturad scrolls gaaketebs*/
+textarea{
+    resize: none;
+    width: 100%;   /*mshoblis fox box {width:300px} is 100%daikavos gaizrdeba mshobeli gaizrdeba esec*/
+    height: 300px;
+}
